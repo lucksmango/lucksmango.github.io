@@ -1,23 +1,233 @@
 <!DOCTYPE html>
+
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luck's Mango</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luck's Mango</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans KR", Arial, sans-serif;
+      line-height: 1.7;
+      color: #222;
+      background: #faf8f4;
+    }
+
+```
+header {
+  padding: 80px 24px 60px;
+  text-align: center;
+  background: #f2eadf;
+}
+
+header h1 {
+  font-size: 42px;
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+}
+
+header p {
+  font-size: 18px;
+  color: #555;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: center;
+  padding: 18px;
+  background: #fff;
+  border-bottom: 1px solid #e5e0d8;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+section {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 64px 24px;
+  border-bottom: 1px solid #e5e0d8;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 32px;
+  font-size: 20px;
+}
+
+.note {
+  background: #fff;
+  padding: 24px;
+  border-radius: 14px;
+  margin-top: 20px;
+  border: 1px solid #e5e0d8;
+}
+
+.shop-links a {
+  display: inline-block;
+  margin: 8px 8px 8px 0;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 24px;
+  color: #777;
+  font-size: 14px;
+}
+```
+
+  </style>
 </head>
+
 <body>
 
+  <header>
     <h1>Luck's Mango</h1>
-
-    <p>빈티지 신발, 가방, 의류를 연구하고 셀렉하는 공간입니다.</p>
-
-    <h2>연구실</h2>
-
     <p>
-        왜 이 물건을 샀는가?<br>
-        왜 이 물건은 팔리는가?<br>
-        누가 이 옷을 입는가?
+      빈티지 신발, 가방, 의류를 연구하고 셀렉하는 공간입니다.<br>
+      좋은 물건을 찾는 것에서 끝나지 않고, 왜 누군가 그 물건을 선택하는지 기록합니다.
     </p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#lab">Research Lab</a>
+    <a href="#diary">Diary</a>
+    <a href="#archive">Archive</a>
+    <a href="#shop">Shop</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Luck's Mango</h2>
+    <p>
+      Luck's Mango는 신발과 가방을 중심으로 시작한 빈티지 셀렉트샵입니다.
+      현재는 의류까지 확장하며, 브랜드·상태·가격뿐 아니라
+      사람과 상황, 스타일의 의미를 함께 살피고 있습니다.
+    </p>
+
+```
+<p>
+  중고 제품을 단순히 다시 판매하는 것이 아니라,
+  어떤 사람이 어떤 상황에서 왜 이 물건을 선택하는지 연구합니다.
+</p>
+```
+
+  </section>
+
+  <section id="lab">
+    <h2>Research Lab</h2>
+    <p>
+      럭스망고 연구실은 물건과 사람 사이의 연결을 기록하는 공간입니다.
+    </p>
+
+```
+<div class="note">
+  <h3>현재 연구 질문</h3>
+  <p>
+    왜 스키니진은 유행이 지났는데도 여전히 선택될까?<br>
+    하이라이즈 데님은 무엇을 강조하고 무엇을 보완할까?<br>
+    신발과 가방은 왜 의류보다 직관적으로 사입이 가능할까?<br>
+    남성복은 왜 여성복보다 Context를 읽기 어려울까?
+  </p>
+</div>
+
+<div class="note">
+  <h3>분석 프레임</h3>
+  <p>
+    Product Feature → Style → Context<br>
+    User → Context → Goal → Pain → Solution
+  </p>
+</div>
+```
+
+  </section>
+
+  <section id="diary">
+    <h2>Buying Diary</h2>
+    <p>
+      사입일지는 오늘 어떤 물건을 샀는지보다,
+      왜 샀고 왜 사지 않았는지를 기록하는 공간입니다.
+    </p>
+
+```
+<div class="note">
+  <h3>예시</h3>
+  <p>
+    상태가 좋은 구두라도, 뒷축 실밥이나 접착 상태가 불안하면 사입하지 않습니다.
+    좋은 물건은 브랜드만으로 결정되지 않습니다.
+    사용될 상황, 상태, 고객이 받을 경험까지 함께 판단합니다.
+  </p>
+</div>
+```
+
+  </section>
+
+  <section id="archive">
+    <h2>Archive</h2>
+    <p>
+      럭스망고가 반복해서 관찰하는 브랜드, 핏, 소재, 스타일을 정리합니다.
+    </p>
+
+```
+<div class="note">
+  <h3>Style Keywords</h3>
+  <p>
+    하이라이즈 · 스트레이트핏 · A라인 · 테이퍼드 · 테일러드 · 피케 · 비즈니스 캐주얼
+  </p>
+</div>
+
+<div class="note">
+  <h3>Core Themes</h3>
+  <p>
+    강조 · 보완 · 무드 · Context · Activity · Quiet Luxury · Contemporary Vintage
+  </p>
+</div>
+```
+
+  </section>
+
+  <section id="shop">
+    <h2>Shop</h2>
+    <p>
+      현재 판매 채널은 아래에서 확인할 수 있습니다.
+    </p>
+
+```
+<div class="shop-links">
+  <a href="#" target="_blank">Smart Store</a>
+  <a href="#" target="_blank">Bunjang</a>
+  <a href="#" target="_blank">Fruits</a>
+  <a href="#" target="_blank">Instagram</a>
+</div>
+
+<p>
+  링크는 추후 업데이트 예정입니다.
+</p>
+```
+
+  </section>
+
+  <footer>
+    © Luck's Mango. Vintage Research & Select.
+  </footer>
 
 </body>
 </html>
